@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T15:37:08.788Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="rQKFvbwA_2X39Pfohyl_" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-23T15:46:10.571Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="hBl8s2FayOMkquDBHqLU" version="21.2.1" type="github">
   <diagram name="Сторінка-1" id="VIs9Ypq6vh0JkyxJYe2f">
     <mxGraphModel dx="1366" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,10 +48,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NHtIoTTWPiNgL2e_DlBW-7" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;:HostServer" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="510" y="370" width="250" height="350" as="geometry" />
+          <mxGeometry x="510" y="370" width="250" height="400" as="geometry" />
         </mxCell>
         <mxCell id="NHtIoTTWPiNgL2e_DlBW-8" value="&amp;lt;&amp;lt;excecution enviroment&amp;gt;&amp;gt;&lt;br&gt;:WebServer {NodeJS}" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="530" y="430" width="200" height="280" as="geometry" />
+          <mxGeometry x="530" y="430" width="200" height="320" as="geometry" />
         </mxCell>
         <mxCell id="NHtIoTTWPiNgL2e_DlBW-10" value="PostgreSQL" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="215" y="640" width="100" height="50" as="geometry" />
@@ -61,6 +61,9 @@
         </mxCell>
         <mxCell id="NHtIoTTWPiNgL2e_DlBW-20" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;Interview Module" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NHtIoTTWPiNgL2e_DlBW-25" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;Scheduler Module" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="670" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
