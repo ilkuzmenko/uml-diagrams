@@ -1,69 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T15:46:10.571Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="hBl8s2FayOMkquDBHqLU" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T10:06:27.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="t7t5C2DZ9RqtFcDNU3kf" version="21.2.1" type="github">
   <diagram name="Сторінка-1" id="VIs9Ypq6vh0JkyxJYe2f">
-    <mxGraphModel dx="1366" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NHtIoTTWPiNgL2e_DlBW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.498;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NHtIoTTWPiNgL2e_DlBW-18" target="NHtIoTTWPiNgL2e_DlBW-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="NHtIoTTWPiNgL2e_DlBW-18" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;:DBServer" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="820" y="160" width="225" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="NHtIoTTWPiNgL2e_DlBW-18" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;:DBServer" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="160" y="530" width="225" height="220" as="geometry" />
+        <mxCell id="NHtIoTTWPiNgL2e_DlBW-17" value="DockerContainer" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="836.25" y="220" width="177.5" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="NHtIoTTWPiNgL2e_DlBW-17" value=":EntityRepository" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="176.25" y="590" width="177.5" height="130" as="geometry" />
+        <mxCell id="NHtIoTTWPiNgL2e_DlBW-4" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;Front-End Server (NodeJS)" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="40" y="190" width="250" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="NHtIoTTWPiNgL2e_DlBW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=120;entryPerimeter=0;" edge="1" parent="1" source="NHtIoTTWPiNgL2e_DlBW-4" target="NHtIoTTWPiNgL2e_DlBW-7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="640" y="350" />
-            </Array>
+        <mxCell id="NHtIoTTWPiNgL2e_DlBW-5" value="DockerContainer" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="85" y="245" width="160" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="NHtIoTTWPiNgL2e_DlBW-6" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;React.ts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="105" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NHtIoTTWPiNgL2e_DlBW-7" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;Back-End Server (NodeJS)" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="430" y="70" width="250" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="NHtIoTTWPiNgL2e_DlBW-8" value="DockerContainer" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="450" y="130" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="NHtIoTTWPiNgL2e_DlBW-10" value="PostgreSQL" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="875" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NHtIoTTWPiNgL2e_DlBW-19" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;package.json" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NHtIoTTWPiNgL2e_DlBW-20" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;tsconfig.json" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12zylDBrCs5RU-ytPPB6-1" value="Nginx Reverse Proxy &amp;amp; Load balancer" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="12zylDBrCs5RU-ytPPB6-2" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;index.ts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12zylDBrCs5RU-ytPPB6-3" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;package.json" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12zylDBrCs5RU-ytPPB6-4" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=50;exitDy=120;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=120;entryPerimeter=0;" edge="1" parent="1" source="12zylDBrCs5RU-ytPPB6-1" target="NHtIoTTWPiNgL2e_DlBW-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="150" as="sourcePoint" />
+            <mxPoint x="320" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NHtIoTTWPiNgL2e_DlBW-4" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;:UserClient" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="160" y="270" width="250" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="NHtIoTTWPiNgL2e_DlBW-5" value=":Browser" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="205" y="315" width="160" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="NHtIoTTWPiNgL2e_DlBW-6" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;React.ts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="225" y="350" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NHtIoTTWPiNgL2e_DlBW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="510" y="544.0064516129032" as="sourcePoint" />
-            <mxPoint x="385" y="640" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="448" y="544" />
-              <mxPoint x="448" y="640" />
-              <mxPoint x="385" y="640" />
-            </Array>
+        <mxCell id="12zylDBrCs5RU-ytPPB6-5" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=20;exitDy=0;exitPerimeter=0;entryX=0.076;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="12zylDBrCs5RU-ytPPB6-1" target="NHtIoTTWPiNgL2e_DlBW-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="190" as="sourcePoint" />
+            <mxPoint x="610" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NHtIoTTWPiNgL2e_DlBW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=80;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NHtIoTTWPiNgL2e_DlBW-7" target="NHtIoTTWPiNgL2e_DlBW-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="640" y="350" />
-            </Array>
+        <mxCell id="12zylDBrCs5RU-ytPPB6-6" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=20;exitDy=0;exitPerimeter=0;entryX=0.076;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="680" y="264.65999999999997" as="sourcePoint" />
+            <mxPoint x="820" y="264.65999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NHtIoTTWPiNgL2e_DlBW-7" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;:HostServer" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="510" y="370" width="250" height="400" as="geometry" />
+        <mxCell id="12zylDBrCs5RU-ytPPB6-7" value="HTTP: 3000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="145" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NHtIoTTWPiNgL2e_DlBW-8" value="&amp;lt;&amp;lt;excecution enviroment&amp;gt;&amp;gt;&lt;br&gt;:WebServer {NodeJS}" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="530" y="430" width="200" height="320" as="geometry" />
+        <mxCell id="12zylDBrCs5RU-ytPPB6-8" value="JDBC Driver" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="702" y="240" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NHtIoTTWPiNgL2e_DlBW-10" value="PostgreSQL" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="215" y="640" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NHtIoTTWPiNgL2e_DlBW-19" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;Auth Module" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="500" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NHtIoTTWPiNgL2e_DlBW-20" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;Interview Module" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="590" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NHtIoTTWPiNgL2e_DlBW-25" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;Scheduler Module" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="670" width="120" height="60" as="geometry" />
+        <mxCell id="12zylDBrCs5RU-ytPPB6-9" value="HTTP: 8080" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="70" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
